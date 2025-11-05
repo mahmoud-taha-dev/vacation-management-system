@@ -75,6 +75,46 @@ This use case describes how an employee interacts with the Vacation Tracking Sys
 
 ■ View the status of their vacation requests
 
+**Data Model**
+
+Employee
+
+| Attribute              | Type                                   | Description                        |
+| ---------------------- | -------------------------------------- | ---------------------------------- |
+| `id`                   | PK                                     | Unique ID of the employee          |
+| `first_name`           | String                                 | Employee’s first name              |
+| `last_name`            | String                                 | Employee’s last name               |
+| `email`                | String                                 | Corporate email (used for login)   |
+| `position`             | String                                 | Job title or role                  |
+| `manager_id`           | FK → Manager.manager_id                | Link to their manager              |
+| `available_leave_days` | Integer                                | Current remaining vacation balance |
+| `hire_date`            | Date                                   | When employee joined               |
+| `status`               | Enum(`Active`, `On Leave`, `Resigned`) | Employment status                  |
+
+Manager
+
+| Attribute     | Type                    | Description               |
+| ------------  | ----------------------- | ------------------------- |
+| `id`          | PK                      | Unique ID for the manager |
+| `department`  | String                  | Department managed        |
+| `employee_id` | FK → Employee.id        | Department managed        |
+
+
+VacationRequest
+
+| Attribute        | Type                                                 | Description                       |
+| ---------------- | ---------------------------------------------------- | --------------------------------- |
+| `request_id`     | PK                                                   | Unique ID of the vacation request |
+| `employee_id`    | FK → Employee.id                                     | The requester                     |
+| `manager_id`     | FK → Manager.id                                      | Approving manager                 |
+| `start_date`     | Date                                                 | Start of vacation                 |
+| `end_date`       | Date                                                 | End of vacation                   |
+| `days_requested` | Integer                                              | Total leave days requested        |
+| `request_date`   | DateTime                                             | When the request was submitted    |
+| `status`         | Enum(`Pending`, `Approved`, `Rejected`, `Cancelled`) | Current request state             |
+| `comments`       | Text                                                 | Optional manager feedback         |
+| `approval_date`  | DateTime                                             | When manager acted on the request |
+
 **Sequence Diagram**
 
 ![Sequence Diagram](./vts-sequence.png)
