@@ -120,7 +120,7 @@ VacationRequest
 
 **Flow Chart**
 
-![Sequence Diagram](./flow-chart.png)
+![Flow Chart](./flow-chart.png)
 
 **Pseudocode**
 
