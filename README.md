@@ -118,3 +118,52 @@ VacationRequest
 **Sequence Diagram**
 
 ![Sequence Diagram](./vts-sequence.png)
+
+
+**Pseudocode**
+
+BEGIN ManageTimeUseCase
+
+  // Employee logs in through the WebUI
+  Employee -> WebUI: Login(credentials)
+
+  // WebUI requests authorization from AuthService
+  WebUI -> AuthService: RequestAuthorization(credentials)
+
+  IF AuthService returns "Authorization Success" THEN
+      WebUI -> Employee: Display "Manage Time" interface
+
+      // Step 1: Get Vacation Balance
+      WebUI -> VTSController: GetVacationBalance(employeeID)
+      VTSController -> ValidateVacation: GetVacationBalance(employeeID)
+      Database -> ValidateVacation: ReturnVacationBalance(balance)
+      VTSController -> WebUI: ReturnVacationBalance(balance)
+      WebUI -> Employee: DisplayVacationBalance(balance)
+
+      // Step 2: Submit Vacation Request
+      Employee -> WebUI: SubmitVacationDates(startDate, endDate)
+      WebUI -> VTSController: SubmitVacationRequest(employeeID, startDate, endDate)
+      VTSController -> ValidateVacation: ValidateRequest(employeeID, startDate, endDate)
+
+      IF request is valid THEN
+          ValidateVacation -> Database: StoreRequest(employeeID, startDate, endDate)
+      ENDIF
+
+      ValidateVacation -> VTSController: ReturnValidationStatus(status)
+      VTSController -> WebUI: ReturnValidationStatus(status)
+      WebUI -> Employee: DisplayValidationStatus(status)
+
+      // Step 3: Show Vacation Requests
+      WebUI -> VTSController: GetVacationRequests(employeeID)
+      VTSController -> ValidateVacation: GetVacationRequests(employeeID)
+      Database -> ValidateVacation: ReturnVacationRequests(requests)
+      VTSController -> WebUI: ReturnVacationRequests(requests)
+      WebUI -> Employee: DisplayVacationRequests(requests)
+
+  ELSE
+      // Authorization failed
+      AuthService -> WebUI: ReturnAuthorizationFailed()
+      WebUI -> Employee: Display "Authorization Failed" message
+  ENDIF
+
+END ManageTimeUseCase
