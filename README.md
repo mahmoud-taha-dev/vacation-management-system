@@ -74,7 +74,6 @@ Employee
 | `manager_id`           | FK → Manager.manager_id                | Link to their manager              |
 | `available_leave_days` | Integer                                | Current remaining vacation balance |
 | `hire_date`            | Date                                   | When employee joined               |
-| `status`               | Enum(`Active`, `On Leave`, `Resigned`) | Employment status                  |
 
 Manager
 
@@ -101,9 +100,13 @@ VacationRequest
 
 ### Diagrams
 
-![Sequence Diagram: High-level request flow](./vts-sequence.png)
+**Sequence Diagram**
 
-![Flow Chart: Request validation flow](./flow-chart.png)
+![Sequence Diagram](./vts-sequence.png)
+
+**Flow Chart**
+
+![Flow Chart:](./flow-chart.png)
 
 ### Pseudocode
 
