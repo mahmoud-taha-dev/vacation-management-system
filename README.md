@@ -118,6 +118,10 @@ VacationRequest
 
 ![Sequence Diagram](./vts-sequence.png)
 
+**Flow Chart**
+
+![Sequence Diagram](./flow-chart.png)
+
 **Pseudocode**
 
 ```
