@@ -93,12 +93,11 @@ Employee
 
 Manager
 
-| Attribute     | Type                    | Description               |
-| ------------  | ----------------------- | ------------------------- |
-| `id`          | PK                      | Unique ID for the manager |
-| `department`  | String                  | Department managed        |
-| `employee_id` | FK → Employee.id        | Department managed        |
-
+| Attribute     | Type             | Description               |
+| ------------- | ---------------- | ------------------------- |
+| `id`          | PK               | Unique ID for the manager |
+| `department`  | String           | Department managed        |
+| `employee_id` | FK → Employee.id | Department managed        |
 
 VacationRequest
 
@@ -119,9 +118,9 @@ VacationRequest
 
 ![Sequence Diagram](./vts-sequence.png)
 
-
 **Pseudocode**
 
+```
 BEGIN ManageTimeUseCase
 
   // Employee logs in through the WebUI
@@ -167,3 +166,4 @@ BEGIN ManageTimeUseCase
   ENDIF
 
 END ManageTimeUseCase
+```
