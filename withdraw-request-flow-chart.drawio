@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Page-1" id="9sBqapqwVKoNfMhN5Uor">
+    <mxGraphModel dx="1234" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-1" target="Sh_WdvCoNYN97mQUnBEa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="295" y="30" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-2" target="Sh_WdvCoNYN97mQUnBEa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-2" value="Login into Internal Portal" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-4" target="Sh_WdvCoNYN97mQUnBEa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-4" value="Open VTS" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-6" target="Sh_WdvCoNYN97mQUnBEa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-6" value="Select a vacation time request to withdraw" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-8" target="Sh_WdvCoNYN97mQUnBEa-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-8" value="Prompt to&lt;div&gt;&amp;nbsp;confirm&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-11" target="Sh_WdvCoNYN97mQUnBEa-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-11" value="Update the request state to withdrawn" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="730" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-13" value="Confirmed" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-14" target="Sh_WdvCoNYN97mQUnBEa-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-14" value="Remove&amp;nbsp;from the manager’s list of pending approvals" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="870" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-16" value="Send a notification e-mail to the manager" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1010" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-20" value="Cancel" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="565" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-22" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="540" y="565" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -112,6 +112,11 @@ VacationRequest
 
 ![Withdraw Request Sequence Diagram](./withdraw-request-sequence-diagram.drawio.png)
 
+**Withdraw Request Flow Chart**
+
+![Withdraw Request Flow Chart:](./withdraw-request-flow-chart.png)
+
+
 ### Pseudocode
 
 ```
