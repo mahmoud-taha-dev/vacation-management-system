@@ -125,6 +125,14 @@ VacationRequest
 ![Cancel Approved Request Flow Chart:](./cancel-request-flow-chart.png)
 
 
+**Edit Request Sequence Diagram**
+
+![Edit Request Sequence Diagram](./edit-request-sequence-diagram.png)
+
+**Edit Request Flow Chart**
+
+![Edit Request Flow Chart:](./edit-request-flow-chart.png)
+
 ### Pseudocode
 
 ```
