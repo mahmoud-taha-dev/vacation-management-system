@@ -22,7 +22,7 @@
         <mxCell id="Sh_WdvCoNYN97mQUnBEa-4" value="Open VTS" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="240" y="290" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sh_WdvCoNYN97mQUnBEa-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-6" target="Sh_WdvCoNYN97mQUnBEa-25">
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-6" target="Sh_WdvCoNYN97mQUnBEa-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Sh_WdvCoNYN97mQUnBEa-6" value="Select a vacation time request to cancel" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
@@ -54,7 +54,7 @@
         <mxCell id="Sh_WdvCoNYN97mQUnBEa-14" value="Remove&amp;nbsp;from the manager’s list of pending approvals" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="240" y="1290" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sh_WdvCoNYN97mQUnBEa-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-16" target="Sh_WdvCoNYN97mQUnBEa-35">
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-16" target="Sh_WdvCoNYN97mQUnBEa-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Sh_WdvCoNYN97mQUnBEa-16" value="Send a notification e-mail to the manager" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
@@ -63,19 +63,19 @@
         <mxCell id="Sh_WdvCoNYN97mQUnBEa-22" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="310" y="1770" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sh_WdvCoNYN97mQUnBEa-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-25" target="Sh_WdvCoNYN97mQUnBEa-8">
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-25" target="Sh_WdvCoNYN97mQUnBEa-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sh_WdvCoNYN97mQUnBEa-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-25" target="Sh_WdvCoNYN97mQUnBEa-29">
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-25" target="Sh_WdvCoNYN97mQUnBEa-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Sh_WdvCoNYN97mQUnBEa-25" value="Is in the future or recent past?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="290" y="580" width="140" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="Sh_WdvCoNYN97mQUnBEa-28" value="In the future" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="715" width="130" height="30" as="geometry" />
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-28" value="In the future" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="95" y="715" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Sh_WdvCoNYN97mQUnBEa-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-29" target="Sh_WdvCoNYN97mQUnBEa-11">
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-29" target="Sh_WdvCoNYN97mQUnBEa-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="520" y="1040" />
@@ -92,10 +92,10 @@
         <mxCell id="Sh_WdvCoNYN97mQUnBEa-35" value="&lt;div&gt;The time allowances used to make&lt;/div&gt;&lt;div&gt;the request are returned to the employee&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="240" y="1600" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sh_WdvCoNYN97mQUnBEa-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-35" target="Sh_WdvCoNYN97mQUnBEa-22">
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-35" target="Sh_WdvCoNYN97mQUnBEa-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Sh_WdvCoNYN97mQUnBEa-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-29" target="Sh_WdvCoNYN97mQUnBEa-22">
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-29" target="Sh_WdvCoNYN97mQUnBEa-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="890" y="890" as="sourcePoint" />
             <mxPoint x="640" y="1820" as="targetPoint" />
@@ -105,7 +105,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sh_WdvCoNYN97mQUnBEa-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-8" target="Sh_WdvCoNYN97mQUnBEa-22">
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="Sh_WdvCoNYN97mQUnBEa-8" target="Sh_WdvCoNYN97mQUnBEa-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="880" as="sourcePoint" />
             <mxPoint x="-130" y="1797" as="targetPoint" />
@@ -114,6 +114,9 @@
               <mxPoint x="100" y="1800" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Sh_WdvCoNYN97mQUnBEa-42" value="In the&amp;nbsp;recent past" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="720" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

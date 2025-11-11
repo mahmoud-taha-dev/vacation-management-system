@@ -116,6 +116,9 @@ VacationRequest
 
 ![Withdraw Request Flow Chart:](./withdraw-request-flow-chart.png)
 
+**Cancel Approved Request Sequence Diagram**
+
+![Cancel Approved Request Sequence Diagram](./cancel-request-flow-chart.png)
 
 **Cancel Approved Request Flow Chart**
 
