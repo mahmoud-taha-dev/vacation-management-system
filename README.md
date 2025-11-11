@@ -117,6 +117,11 @@ VacationRequest
 ![Withdraw Request Flow Chart:](./withdraw-request-flow-chart.png)
 
 
+**Cancel Approved Request Flow Chart**
+
+![Cancel Approved Request Flow Chart:](./cancel-request-flow-chart.png)
+
+
 ### Pseudocode
 
 ```
