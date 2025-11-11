@@ -100,13 +100,17 @@ VacationRequest
 
 ### Diagrams
 
-**Sequence Diagram**
+**Manage Time Sequence Diagram**
 
-![Sequence Diagram](./vts-sequence.png)
+![Manage Time Sequence Diagram](./vts-sequence.png)
 
-**Flow Chart**
+**Manage Time Flow Chart**
 
-![Flow Chart:](./flow-chart.png)
+![Manage Time Flow Chart:](./flow-chart.png)
+
+**Withdraw Request Sequence Diagram**
+
+![Withdraw Request Sequence Diagram](./withdraw-request-sequence-diagram.drawio.png)
 
 ### Pseudocode
 
