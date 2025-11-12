@@ -100,6 +100,10 @@ VacationRequest
 
 ### Diagrams
 
+**State Diagram**
+
+![State Diagram](./State Diagram.png)
+
 **Manage Time Sequence Diagram**
 
 ![Manage Time Sequence Diagram](./vts-sequence.png)
